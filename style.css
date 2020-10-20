@@ -125,7 +125,6 @@ footer p {
     color: white;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-    padding: auto;
     margin: auto;
 }
 
@@ -168,6 +167,7 @@ iframe {
     width: 100%;
     max-width: 700px;
     max-height: 450px;
+    border: 0;
 }
 
 /* Contact Form Design */
