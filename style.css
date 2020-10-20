@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poly:ital@1&family=Quicksand:wght@600&family=Rubik:wght@375&display=swap');
+
+body {
+    background-color: #FAF9F9;
+}
+
+.centerall {
+    text-align: center;
+}
+
+header {
+    background-color: #555B6E;
+    padding: 3px;
+    margin-bottom: 50px;
+}
+
+/* ---  Navigation --- */
+header nav {
+    display: flex;
+    justify-content: center;
+}
+  
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+}
+  
+header nav ul li a {
+    font-family: 'Quicksand', sans-serif;
+    color: #FAF9F9;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+@media all and (min-width: 900px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 30px;
+    }
+  
+    header h1 {
+      font-size: 42px;
+      margin: 14px 0;
+      padding-top: 6px;
+    }
+    
+    header nav {
+      margin-top: 10px;
+    }
+  
+    header nav ul li a:hover {
+      color: #FAF9F9;
+    }
+}
+
+footer {
+    background-color: #555B6E;
+    height: 30px;
+    padding: 20px;
+}
+
+ /* ---  Typography --- */
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    color: #FAF9F9;
+}
+
+h2 {
+    font-family: 'Poly', serif;
+    font-size: 36px;
+    color: black;
+}
+
+.h2sizedup {
+    font-size: 64px;
+    margin-top: 62px;
+}
+
+h3 {
+    font-family: 'Quicksand', serif;
+    font-size: 24px;
+    color: black;
+}
+
+p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+}
+
+.fancyp {
+    font-family: 'Poly', serif;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+ul, li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+.servicelist {
+    text-align: left;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+hr {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #555B6E;
+    margin: 120px auto auto auto; 
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: auto;
+    margin: auto;
+}
+
+a:link    {color: black}
+a:visited {color: #89B0AE}
+a:hover   {color: #FFD6BA}
+a:active  {color: #BEE3DB}
+
+/* --- Images --- */
+
+img {
+    width: 80%;
+    align-self: center;
+}
+
+.stylemyimage {   
+    max-width: 500px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #89B0AE;
+}
+
+.stylepuppyimage { 
+    max-width: 200px;
+    border-radius: 20px;
+    border-style: double;
+    border-width: 4px;
+    border-color: #FAF9F9;
+}
+
+/* Style Contact Section Background */
+.cbackground {
+    background-color: #BEE3DB;
+    background-size: cover;
+}
+
+/* Adjust width settings for Google Maps */
+iframe {
+    width: 100%;
+    max-width: 700px;
+    max-height: 450px;
+}
+
+/* Contact Form Design */
+form {
+    max-width: 450px;
+    margin: 0 auto !important;
+}
+
+form label {
+    display: block;
+    text-align: left;    
+}
+  
+form input, form textarea {
+    width: 96%;
+    margin-bottom: 15px;
+    padding: 2%;
+}
+  
+form textarea {
+    height: 60px;
+}
+
+/* Groups & Items (Mobile) */
+.wrapper {
+    width: 100%;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+}
+  
+.item {
+    flex: 1;
+    margin: 20px;
+}
+  
+.item-double {
+    flex: 2;
+    margin: 30px;
+}
+
+/* Groups & Items  (Desktop) */
+@media all and (min-width: 800px) {
+    .wrapper {
+        width: 80%;
+        margin: auto;
+    }
+
+    .group {
+        flex-direction: row;
+    }
+
+    .stylepuppyimage {
+        max-width: 300px;
+        margin-right: 20px;
+    }
+}
+
+/* Styling Sections */
+#aboutme {
+    background-color: #89B0AE;
+    margin-top: 50px;
+}
